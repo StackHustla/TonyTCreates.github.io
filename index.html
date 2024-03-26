@@ -124,25 +124,26 @@
 
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
-
-        <form action="">
+    
+        <form action="mailto:your_email@example.com" method="post" enctype="text/plain">
             <div class="input-group">
                 <div class="input-box">
-                    <input type="text" placeholder="Full Name">
-                    <input type="email" placeholder="Email">
+                    <input type="text" name="Full Name" placeholder="Full Name" required>
+                    <input type="email" name="Email" placeholder="Email" required>
                 </div>
                 <div class="input-box">
-                    <input type="number" placeholder="Phone Number">
-                    <input type="text" placeholder="Subject">
+                    <input type="tel" name="Phone Number" placeholder="Phone Number">
+                    <input type="text" name="Subject" placeholder="Subject" required>
                 </div>
             </div>
-
+    
             <div class="input-group-2">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
                 <input type="submit" value="Send Message" class="btn">
             </div>
         </form>
     </section>
+    
     <footer class="footer">
         <div class="social">
             <a href="#"><i class='bx bxl-linkedin'></i></a>
