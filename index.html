@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="content=" Welcome to my developer portfolio! Explore a curated collection of my
+        projects, art, and web applications, showcasing my expertise in building dynamic and interactive user
+        interfaces. With a keen eye for graphic design and a passion for clean code and innovative solutions, I strive
+        to create seamless user experiences that seamlessly blend functionality with stunning designs. Let's embark on a
+        journey through my work, where creativity meets technical finesse"">
+    <title>Tony Moore | Front-end Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Tony <span>Moore</span>
+        </a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#portfolio">Art Portfolio</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hello! My name is <span>Tony</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
+            <p> Passionate creative with expertise in graphic design transitioning into the realm of Software
+                Development. As a recent graduate, I bring a robust background in creative endeavors, driven by a
+                fervent interest in front-end development. Eager to channel my creative prowess into diverse projects, I
+                aim to blend innovation, design excellence, and technical proficiency to deliver impactful solutions.
+            </p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/antonio-moore-b650bb58/" target="_blank"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/StackHustla" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/whatsgoodtonyt/?igsh=NDJsYTFmMGM4cTR6" target="_blank"><i
+                        class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.beatstars.com/tonytintheplace" target="_blank"><i class='bx bxs-music'></i></a>
+            </div>
+            <div class="btn-group">
+              <!--   <a href="#" class="btn">Hire Me</a> -->
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="assets/gojoPfp.png" alt="Satoru Gojo">
+        </div>
+    </section>
+    <div class="skills">
+        <p>Tech Stack</p>
+        <ul>
+            <li><img src="https://skillicons.dev/icons?i=html,css,js" alt=""></li>
+            <li><img src="https://skillicons.dev/icons?i=ai,xd,ableton" alt=""></li>
+            <li><img src="https://skillicons.dev/icons?i=react,nextjs,tailwind" alt=""></li>
+        </ul>
+    </div>
+    <section class="portfolio" id="portfolio">
+        <h2 class="port-heading">Art Portfolio</h2>
+        <div class="slider-wrapper"><!-- edit alt text -->
+            <div class="arrow arrow-left">&#10094;</div>
+            <div class="slider">
+                <img src="assets/PortfolioScraps_-01.png" alt="" id="slide-1">
+                <img src="assets/PortfolioScraps_-02.png" alt="" id="slide-2">
+                <img src="assets/PortfolioScraps_-03.png" alt="" id="slide-3">
+                <img src="assets/DenialDenial.webp" alt="" id="slide-4">
+            </div>
+            <!-- <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+            </div> -->
+            <div class="arrow arrow-right">&#10095;</div>
+        </div>
+        <div class="image-grid">
+            <img src="assets/Abstract_Post_Web.webp" alt="">
+            <img class="" src="assets/SamuraiHoodie_DoingItWell-02.jpg" alt="">
+            <img src="assets/SamuraiHoodie_DoingItWell-03.jpg" alt="">
+            <img src="assets/SamuraiHoodie_DoingItWell-04.jpg" alt="">
+            <img src="assets/SamuraiHoodie_DoingItWell-01.jpg" alt="">
+            <img src="assets/SamuraiHoodie_DoingItWell-05.jpg" alt="">
+            <img src="assets/FromYourLove.png" alt="">
+            <img src="assets/Backdoor_Square.webp" alt="">
+            <img src="assets/SamuraiHoodie_DoingItWell-01.jpg" alt="">
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <div class="projects-box">
+
+            <h2 class="heading">Projects</h2>
+            <div class="wrapper">
+                <div class="project-item">
+                    <img src="assets\P5_Icons-01 (1).png" alt="">
+                    <h2>Mementos</h2>
+                    <div class="gitIcon">
+                        <i class='bx bxl-github'></i>
+                    </div>
+                    <div class="description">A student scheduling, tracking and task management app developed in Android
+                        Studio
+                    </div>
+
+                </div>
+                <div class="project-item">
+                    <img src="assets\KyotoKicks.webp" alt="">
+                    <h2>Kyoto Kicks</h2>
+                    <div class="gitIcon">
+                        <i class='bx bxl-github'></i>
+                    </div>
+                    <div class="description">The Cool Kicks Kyoto app offers an immersive shopping experience, curated
+                        selections, and exclusive releases, blending Kyoto's traditional charm with modern sneaker
+                        culture.
+                    </div>
+
+                </div>
+            </div>
+            <p class="more-projects">MORE PROJECTS <span>COMING SOON</span></p>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+
+            <div class="input-group-2">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#"><i class='bx bxs-music'></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <p class="copyright">
+            © Antonio Moore | All Rights Reserved
+        </p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
