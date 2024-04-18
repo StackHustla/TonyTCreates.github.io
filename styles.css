@@ -580,7 +580,7 @@
  .contact form {
      display: flex;
      align-items: start;
-     justify-content: start;
+     justify-content: center;
      gap: 3rem;
      margin: 5rem auto;
      text-align: center;
