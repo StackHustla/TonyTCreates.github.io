@@ -43,12 +43,16 @@
      z-index: 5;
  }
 
+ .header a {
+    transition: 0.3s ease;
+ }
+
  .logo {
      font-size: 3rem;
      color: var(--text-color);
      font-weight: 800;
      cursor: pointer;
-     transition: .03s ease;
+     transition: .03s ease-in-out;
  }
 
  .logo:hover {
@@ -84,6 +88,8 @@
      min-height: 100vh;
      padding: 10rem 12% 10rem
  }
+
+
 
  .home {
      display: flex;
@@ -204,6 +210,9 @@
      box-shadow: 0 0 25px var(--main-color);
      background-color: var(--main-color);
      color: #000;
+ }
+ .btn-group a{
+    transition: 0.3s ease;
  }
 
  .text-animation {
@@ -367,7 +376,6 @@
 
  .image-grid {
      --gap: 16px;
-     --num-cols: 4;
      --row-height: 300px;
 
      box-sizing: border-box;
@@ -375,7 +383,7 @@
      padding-top: 40px;
 
      display: grid;
-     grid-template-columns: repeat(3, 1fr);
+     grid-template-columns: repeat(4, 1fr);
      grid-auto-rows: var(--row-height);
      gap: var(--gap);
  }
@@ -385,6 +393,11 @@
      height: 100%;
      object-fit: cover;
      cursor: pointer;
+     transition: 0.3s ease;
+ }
+ .image-grid img:hover {
+    transform: scale(.9);
+    box-shadow: 0 0 40px var(--text-color);
  }
 
  @media screen and (max-width: 1024px) {
@@ -438,6 +451,13 @@
  }
 
  /* Tech Stack */
+.skills img {
+    transition: 0.3s ease;
+}
+.skills img:hover{
+    transform: scale(.9);
+}
+
  .skills {
      min-height: 20vh;
  }
