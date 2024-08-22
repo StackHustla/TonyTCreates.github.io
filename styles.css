@@ -403,7 +403,8 @@
  @media screen and (max-width: 1024px) {
      .image-grid {
          grid-template-columns: repeat(3, 1fr);
-         --row-height: 200px;
+
+         min-width: auto;
      }
  }
 
