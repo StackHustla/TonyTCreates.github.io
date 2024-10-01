@@ -50,15 +50,19 @@
             </div>
         </div>
         <div class="home-img">
-            <img src="assets/itsAMe.jpg" alt="Satoru Gojo">
+            <img src="assets/itsAMe.jpg" alt="Profile picture of Antonio Moore">
         </div>
     </section>
     <div class="skills">
         <p>Tech Stack</p>
         <ul>
-            <li><img src="https://skillicons.dev/icons?i=html,css,js,ts" alt=""></li>
-            <li><img src="https://skillicons.dev/icons?i=ai,ps,figma,vscode" alt=""></li>
-            <li><img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,bootstrap" alt=""></li>
+            <li><img src="https://skillicons.dev/icons?i=html,css,js,ts,py" alt=""></li>
+            <li><img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,bootstrap,vscode" alt=""></li>
+            <li><img src="https://skillicons.dev/icons?i=vite,npm,git,java" alt=""></li>
+        </ul>
+        <p>Bonus Software</p>
+        <ul>
+            <li><img src="https://skillicons.dev/icons?i=ai,ps,figma,ableton" alt=""></li>
         </ul>
     </div>
     <section class="projects" id="projects">
@@ -72,7 +76,8 @@
                         <div class="gitIcon">
                             <i class='bx bxl-github'></i>
                         </div>
-                        <div class="description">A student scheduling, tracking and task management app developed in Android Studio
+                        <div class="description">A student scheduling, tracking and task management app developed in
+                            Android Studio
                         </div>
                     </div>
                 </a>
@@ -84,33 +89,54 @@
                             <i class='bx bxl-github'></i>
                         </div>
                         <div class="description">Mysterious and unassuming establishment that offers unconventional
-                            medical
-                            treatments and serves as a refuge for those seeking alternative care.
+                            medical treatments and serves as a refuge for those seeking alternative care.
                         </div>
                         <h3>In progress</h3>
                     </div>
                 </a>
+                <a href="javascript:void(0);" onclick="comingSoon()">
+                    <div class="project-item">
+                        <img src="assets/backlog-icon.png" alt="">
+                        <h2>Working Title: GamersLog</h2>
+                        <div class="gitIcon">
+                            <i class='bx bxl-github'></i>
+                        </div>
+                        <div class="description">Backlog cleaner for busy gamers that can't stop buying games! I am here
+                            to help!
+                        </div>
+                        <h3>In progress</h3>
+                    </div>
+                </a>
+                <a href="javascript:void(0);" onclick="comingSoon()">
+                    <div class="project-item">
+                        <img src="assets/creativepush-icon.png" alt="">
+                        <h2>Creative Push</h2>
+                        <div class="gitIcon">
+                            <i class='bx bxl-github'></i>
+                        </div>
+                        <div class="description">A generator that helps creatives, like myself, sharpen their skills by
+                            genrating branding, logo and art creation with real world scenarios.
+                        </div>
+                        <h3>In progress</h3>
+                    </div>
+                </a>
+
+                <script>
+                    function comingSoon() {
+                        alert("Currently Wireframing/Mocking up! Git Repository coming soon.");
+                    }
+                </script>
+
             </div>
             <p class="more-projects">MORE PROJECTS <span>COMING SOON</span></p>
         </div>
     </section>
     <section class="portfolio" id="portfolio">
         <h2 class="port-heading">Art Portfolio</h2>
-        <h3>I have a Graphic Design portfolio <a href="https://createdbytonyt.com/" target="_blank"><span>here</span></a> if you like to check it out!</h3>
-      <!--   <div class="slider-wrapper">
-            <div class="arrow arrow-left">&#10094;</div>
-            <div class="slider">
-                <img src="assets/PortfolioScraps_-01.png" alt="" id="slide-1">
-                <img src="assets/PortfolioScraps_-02.png" alt="" id="slide-2">
-                <img src="assets/PortfolioScraps_-03.png" alt="" id="slide-3">
-                <img src="assets/DenialDenial.webp" alt="" id="slide-4">
-            </div>
-            <div class="arrow arrow-right">&#10095;</div>
-        </div> -->
+        <h3>I have a Graphic Design portfolio <a href="https://createdbytonyt.com/"
+                target="_blank"><span>here</span></a> if you like to check it out!</h3>
         <div class="image-grid">
-            <img src="assets/IMG_INFO-01.webp" alt="">
-            <img src="assets/IMG_INFO-04.webp" alt="">
-            <img src="assets/IMG_INFO-03.webp" alt="">    
+            <img src="assets/Thumbnail_Land-01.png" alt="">
         </div>
     </section>
 
@@ -118,14 +144,13 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
 
-        <form action="mailto:your_email@example.com" method="post" enctype="text/plain">
+        <form onsubmit="showEmail(); return false;">
             <div class="input-group">
                 <div class="input-box">
                     <input type="text" name="Full Name" placeholder="Full Name" required>
                     <input type="email" name="Email" placeholder="Email" required>
                 </div>
                 <div class="input-box">
-                    <input type="tel" name="Phone Number" placeholder="Phone Number">
                     <input type="text" name="Subject" placeholder="Subject" required>
                 </div>
             </div>
@@ -137,6 +162,13 @@
         </form>
     </section>
 
+    <script>
+        function showEmail() {
+            alert("You can contact me directly at: tonytcreates@gmail.com");
+        }
+    </script>
+
+
     <footer class="footer">
         <div class="social">
             <a href="#" target="_blank"><i class='bx bxl-linkedin'></i></a>
@@ -144,7 +176,7 @@
             <a href="#" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
             <a href="https://www.beatstars.com/tonytintheplace" target="_blank"><i class='bx bxs-music'></i></a>
         </div>
-       <!--  <ul class="list">
+        <!--  <ul class="list">
             <li><a href="#">FAQ</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">About Me</a></li>
