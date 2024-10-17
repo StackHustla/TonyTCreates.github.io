@@ -449,7 +449,9 @@
      min-height: 60vh;
  }
 
-
+.projects h3{
+    font-size: 1.5rem;
+}
 
  .projects-box {
      background-size: cover;
