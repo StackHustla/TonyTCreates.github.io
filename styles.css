@@ -328,8 +328,8 @@
  }
 
  .image-grid {
-    display: flex;
-    justify-content: center;
+     display: flex;
+     justify-content: center;
  }
 
  .image-grid img {
@@ -449,9 +449,9 @@
      min-height: 60vh;
  }
 
-.projects h3{
-    font-size: 1.5rem;
-}
+ .projects h3 {
+     font-size: 1.5rem;
+ }
 
  .projects-box {
      background-size: cover;
@@ -709,6 +709,8 @@
          margin: 3rem 0;
          color: white;
      }
+
+ 
 
      .home {
          flex-direction: column-reverse;
